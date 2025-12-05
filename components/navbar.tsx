@@ -34,7 +34,7 @@ export function Navbar() {
           {/* Logo */}
           <a href="#" className="flex items-center gap-2">
             <div className="w-10 h-10 rounded-lg overflow-hidden">
-              <img src="/images/logo.png" alt="Dr Raspec Logo" className="w-full h-full object-cover" />
+              <img src="/images/logo.jpg" alt="Dr Raspec Logo" className="w-full h-full object-cover" />
             </div>
           </a>
 
@@ -63,7 +63,8 @@ export function Navbar() {
             </button>
 
             <a
-              href="#"
+              href="/Yong-Bunleng.pdf"
+              download="Yong-Bunleng.pdf"
               className="flex items-center gap-2 px-4 py-2 border border-primary text-primary rounded-xl hover:bg-primary hover:text-primary-foreground transition-colors"
             >
               <Download className="w-4 h-4" />
@@ -107,7 +108,8 @@ export function Navbar() {
               ))}
 
               <a
-                href="#"
+                href="/Yong-Bunleng.pdf"
+                download="Yong-Bunleng.pdf"
                 className="flex items-center justify-center gap-2 px-4 py-2 border border-primary text-primary rounded-xl hover:bg-primary hover:text-primary-foreground transition-colors mt-2"
               >
                 <Download className="w-4 h-4" />
